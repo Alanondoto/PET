@@ -2,11 +2,22 @@
   font-family: 'Roboto', sans-serif
 a
   text-decoration: none
+.container
+    width: 1170px
 .divider
     margin-top: 64px
     width: inherit
     height: 1px
     background: #FFA14D
+.divider_blue
+    width: 1170px
+    height: 1px
+    background: #3897F0
+    margin-bottom: 32px
+.active_item
+    display: flex
+    justify-content: space-between
+    align-items: center
 .header
     font-weight: 400
     font-size: 16px
@@ -117,7 +128,92 @@ a
     &_bg
         position: absolute
         top: 80px
-        right: -118px
+        right: -52px
+    &_paw
+        position: absolute
+        top: 50px
+        right: 412px
+    &_plus
+        position: absolute
+        top: 380px
+        right: -119px
+.vacancies
+    min-height: 1910px
+    padding: 26px 0 95px
+    &_header
+        margin-bottom: 48px
+        font-weight: 500
+        font-size: 46px
+        color: #1B274A
+    &_card
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 0 50px 0 62px 
+        height: 89px
+    &_descr
+        font-weight: 400
+        font-size: 32px
+        color: #3897F0
+    &_more
+        font-weight: 400
+        font-size: 14px
+        color: #3897F0
+    &_arrow
+        margin-left: 18px
+    &_active
+        padding: 32px 50px 0 70px
+    &_subheader
+        font-weight: 400
+        font-size: 32px
+        color: #FF7800
+    &_title
+        margin-top: 43px 
+        font-weight: 500
+        font-size: 32px
+        color: #1B274A
+    &_btn
+        margin-top: 48px
+.expectations_list
+    margin: 32px 0 0
+    li
+        margin-top: 18px
+        list-style-type: none
+        font-weight: 400
+        font-size: 22px
+        line-height: 33px
+        color: #1B274A
+        &::before
+            content: ''
+            display: inline-block
+            height: 10px
+            width: 10px
+            vertical-align: middle
+            border-radius: 50%
+            background-color: #FF7800
+            margin-right: 18px
+.expectations_descr
+    margin-top: 40px
+    font-weight: 400
+    font-size: 22px
+    line-height: 33px
+    color: #1B274A
+.targets_list
+    margin: 32px 0 0 30px
+    font-weight: 400
+    font-size: 22px
+    line-height: 33px
+    color: #FF7800
+    li
+        margin-top: 18px
+    span
+        color: #1B274A
+
+
+
+
+
+
 
 
 
