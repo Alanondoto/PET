@@ -3,6 +3,7 @@
 a
   text-decoration: none
 .container
+    position: relative
     width: 1170px
 .divider
     margin-top: 64px
@@ -208,6 +209,42 @@ a
         margin-top: 18px
     span
         color: #1B274A
+.advantages
+    min-height: 1458px
+    padding-bottom: 120px
+    &_title
+        font-weight: 500
+        font-size: 46px
+        color: #1B274A
+    &_item
+        display: flex
+        margin-top: 120px
+        justify-content: space-between
+        align-items: flex-end
+        &:nth-child(2)
+            margin-top: 58px
+    &_descr
+        width: 500px
+    &_dot1
+        position: absolute
+        top: 2px
+        right: -376px
+        z-index: -1
+    &_dot2
+        position: absolute
+        bottom: 400px
+        left: -375px
+        z-index: -1
+.descr_title
+    font-weight: 500
+    font-size: 32px
+    color: #1B274A
+.descr_text
+    margin-top: 32px
+    font-weight: 400
+    font-size: 22px
+    line-height: 33px
+    color: #1B274A
 
 
 
